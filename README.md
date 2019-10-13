@@ -5,14 +5,14 @@ Searches shodan for open elastic search servers and check for interesting things
 # This is NOT a subtle script. You have been warned.
 
 ## Requirements
-You'll need to install elasticdump and shodan CLI first.
-You'll need to configure shodan with an API key
+* You'll need to install elasticdump and shodan CLI first.
+* You'll need to configure shodan with an API key
 
 ## Usage
 ./elasticsearcher.sh COUNTRYCODE
-Shodan results are limited to the first 1000 entries, you can change this by editting line 24
+* Shodan results are limited to the first 1000 entries, you can change this by editting line 24
 
 ## Features
-Looks for Credit Card information :(
-Looks for passwords :(
-Looks for email addresses :(
+* Looks for Credit Card information :(
+* Looks for passwords :(
+* Looks for email addresses :(
